@@ -1,0 +1,21 @@
+{
+    "name": "martinkovacs22/hurican-fw",
+    "description": "framework",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.10",
+        "phpunit/phpunit": "^11.4"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Martinkovacs22\\HuricanFw\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Kovács",
+            "email": "martinkovacs22@gmail.com"
+        }
+    ]
+}
